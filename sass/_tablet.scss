@@ -1,0 +1,142 @@
+header {
+    background-color: white;
+}
+
+.hero__logo {
+    height: 150px;
+    width: 150px;
+    padding-top: 25px;
+}
+
+.regular-nav {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0px;
+    @include box-shadow(rgba(0,0,0,0.2));    
+}
+
+.regular-nav__menu {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.regular-nav__listitem {
+    width: 150px;
+    font-size: 1.5em;
+    display: inline-block;
+    font-weight: bold;
+
+    &:hover {   
+        text-decoration: none;
+        color: $link-hover-color;
+        background-color: $background-hover-color;
+    }
+}
+
+.regular-nav__link {
+    @include links;   
+    padding: 10px 0px;
+    margin: 0px;
+    
+    &:hover {   
+        background-color: $background-hover-color;
+    }
+
+    &:focus {
+        color: $link-hover-color;
+        background-color: $background-hover-color;
+    }
+}
+
+.hero {
+    height: 300px;
+}
+
+.hero__logo {   
+    margin: 0px auto;
+    padding-top: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+#hamburger-nav {
+    display: none; 
+
+    &.show-hamburger {
+        display: none;
+    }
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+.main__header {
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+}
+
+.main__header--margin-top {
+    letter-spacing: 0px;
+    margin-top: 60px;
+}
+
+.main__body-text-stores--wider {
+    line-height: 1.1rem;
+    font-size: 1rem;
+}
+
+.main__only-tablet {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main__not-tablet {
+    display: none;
+}
+
+hr {
+    margin: 10px;
+}
+
+.main__body-img {  
+    margin-top: 0px;
+}
+
+.main__row--padding {
+    padding: 30px;
+}
+
+.main__row--less-top-padding {
+    padding: 40px 60px 0px 60px;
+}
+
+.main__row--less-bottom-padding {
+    padding: 30px 30px 0px 30px;
+}
+
+.main__col--padding {
+    padding-left: 50px;
+    margin-right: 0px auto;
+}
+
+.main__map-header {
+    font-size: 0.87rem;
+}
+
+.main__body-text-stores--wider {
+    font-size: 0.9rem;
+}
+
+.main__google-maps-frame {
+    margin-top: 0px;
+}

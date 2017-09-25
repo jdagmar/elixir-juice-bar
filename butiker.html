@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <meta name="description" content="Elixir Juice Bar's officiella hemsida">
+    <title>Butiker | Elixir Juice Bar</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="hero__container">
+                <div class="hero__logo">
+                    <img src="images/logga_stroke.svg" alt="Elixir logotyp">
+                </div>
+                <div>
+                    <i id="hamburger-icon" tabindex="0" onkeydown="toggleHamburgerMenu(event);" onclick="toggleHamburgerMenu();" class="material-icons hamburger-icon">menu</i>
+                </div>
+            </div>
+        </div>
+
+        <nav id="hamburger-nav">
+            <ul class="hamburger-nav__menu">
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href=".">Hem</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="juicer.html">Våra juicer</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="om.html">Om Elexir</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="butiker.html">Butiker</a></li>
+            </ul>
+        </nav>
+
+        <nav class="regular-nav">
+            <ul class="regular-nav__menu">
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href=".">Hem</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="juicer.html">Våra juicer</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="om.html">Om Elexir</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="butiker.html">Butiker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12">
+                        <h1 class="main__header">Våra Butiker</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main__row--less-bottom-padding">
+                    <div class="col-xs-12 col-sm-push-6 col-sm-6">
+                        <div class="main__col--padding">
+                            <h2 class="main__map-header">Göteborg, Södra hamngatan 22</h2>
+                            <p class="main__body-text-stores--wider main__body-text-stores--italic">Telefon: 08-00 00 00</p>
+                            <p class="main__body-text-stores--wider">Öppettider:</p>
+                            <p class="main__body-text-stores--wider">måndag-torsdag: 08-17</p>
+                            <p class="main__body-text-stores--wider">fredag: 08-15</p>
+                            <p class="main__body-text-stores--wider">lördag-söndag: 10-18</p>
+                            <a class="main__body-text-links main__not-tablet" href="#">Se butikens sortiment här!</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-pull-6 col-sm-6">
+                        <div class="main__google-maps">
+                            <iframe class="main__google-maps-frame" tabindex="-1" title="karta till butik i Göteborg" width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=s%C3%B6dra%20hamngatan%2022%20G%C3%B6teborg%2C%20Sverige&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="main__row-padding">
+                            <div class="col-sm-12">
+                                <a class="main__body-text-links main__only-tablet" href="#">Se butikens sortiment här!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12 col-sm-push-6 col-sm-6">
+                        <div class="main__col--padding">
+                            <h2 class="main__map-header">Stockholm, Götgatan 56</h2>
+                            <p class="main__body-text-stores--wider main__body-text-stores--italic">Telefon: 08-00 00 00</p>
+                            <p class="main__body-text-stores--wider ">Öppettider:</p>
+                            <p class="main__body-text-stores--wider">måndag-torsdag: 08-17</p>
+                            <p class="main__body-text-stores--wider">fredag: 08-15</p>
+                            <p class="main__body-text-stores--wider">lördag-söndag: 10-18</p>
+                            <a class="main__body-text-links main__not-tablet" href="#">Se butikens sortiment här!</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-pull-6 col-sm-6">
+                        <div class="main__google-maps">
+                            <iframe class="main__google-maps-frame" tabindex="-1" title="karta till butik i Stockholm" width="600" height="500" src="https://maps.google.com/maps?q=G%C3%B6tgatan%2056%2C%20Stockholm%2C%20SE&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="main__row--padding">
+                            <div class="col-sm-12">
+                                <a class="main__body-text-links main__only-tablet" href="#">Se butikens sortiment här!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12">
+                        <h2 class="main__contact-header">Kontakta oss</h2>
+                        <p class="main__body-text--smaller main__body-text--wider">Fyll i formuläret nedan eller kontakta oss via <a class="main__body-text-links" aria-label="link to facebook"
+                                href="https://facebook.com" target="_blank" rel="noopener">Facebook</a> eller <a class="main__body-text-links"
+                                aria-label="link to instagram" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                        <form class="main__contact-form" action="mailto:info@elixirjuice.se" method="GET">
+                            <label for="main__contact-form-name">Namn</label>
+                            <input name="name" id="main__contact-form-name" type="text" class="main__contact-input" placeholder="Fyll i ditt namn här"
+                            />
+                            <label for="main__contact-form-email">E-postaddress</label>
+                            <input name="mail" id="main__contact-form-email" type="text" class="main__contact-input" placeholder="Fyll i din e-post här"
+                            />
+                            <label for="main__contact-form-body">Meddelande</label>
+                            <textarea name="body" id="main__contact-form-body" class="main__contact-body" rows="5" placeholder="Skriv ditt meddelande här..."></textarea>
+                            <input type="submit" class="main__contact-submit" value="Skicka" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__copy">
+            <p class="footer__copy-text">&copy; 2017</p>
+            <div class="footer__copy-logo"><img src="images/logga_stroke.svg" alt="Elixir logotyp"></div>
+        </div>
+        <div class="footer__social">
+            <a class="footer__social-link" aria-label="link to facebook" href="https://facebook.com" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="footer__social-link" aria-label="link to instagram" href="https://instagram.com" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <script src="elixir.js"></script>
+</body>
+
+</html>

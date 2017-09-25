@@ -1,0 +1,55 @@
+
+$link-color: #cc0033;
+$link-hover-color: #ffcc00;
+$background-hover-color: #1F6372;
+$footer-social-color: #525252;
+$underline-color: #19d300;
+$contact-form-color: #f2f2f2;
+$contact-form-input-color: #ddd;
+
+$content-font: 'Raleway';
+$heading-font: 'Vidaloka';
+
+
+@mixin links() {
+    text-decoration: none;
+    color: $link-color;
+    font-family: $content-font;
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+        color: $link-hover-color;
+    }
+} 
+
+@mixin width ($width) {
+    width: calc(100% / #{$width});
+}
+
+@mixin box-shadow ($color){
+    -webkit-box-shadow: 0px 8px 16px 0px #{$color};
+    box-shadow: 0px 8px 16px 0px #{$color};
+}
+
+@keyframes fade-in {
+    0% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+%display-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+%contact-focus {
+    outline: none  !important; 
+    -webkit-box-shadow: 0 0 5px $link-hover-color !important;     
+    box-shadow: 0 0 5px $link-hover-color !important;
+    border: 1px solid $link-hover-color !important;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <meta name="description" content="Elixir Juice Bar's officiella hemsida">
+    <title>Om elixir | Elixir Juice Bar</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="hero__container">
+                <div class="hero__logo">
+                    <img src="images/logga_stroke.svg" alt="Elixir logotyp">
+                </div>
+                <div>
+                    <i id="hamburger-icon" tabindex="0" onkeydown="toggleHamburgerMenu(event);" onclick="toggleHamburgerMenu();" class="material-icons hamburger-icon">menu</i>
+                </div>
+            </div>
+        </div>
+
+        <nav id="hamburger-nav">
+            <ul class="hamburger-nav__menu">
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href=".">Hem</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="juicer.html">Våra juicer</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="om.html">Om Elexir</a></li>
+                <li class="hamburger-nav__listitem"><a class="hamburger-nav__link" href="butiker.html">Butiker</a></li>
+            </ul>
+        </nav>
+
+        <nav class="regular-nav">
+            <ul class="regular-nav__menu">
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href=".">Hem</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="juicer.html">Våra juicer</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="om.html">Om Elexir</a></li>
+                <li class="regular-nav__listitem"><a class="regular-nav__link" href="butiker.html">Butiker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="main__row--no-padding">
+                    <div class="col-xs-12">
+                        <h1 class="main__header main__header--margin-top">Om Elixir Juice Bar</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12">
+                        <p class="main__body-text">
+                            Elixir grundades för att kunna erbjuda ett alternativ till all juice gjorda på koncentrat. Vi erbjuder en produkt gjord på
+                            100% äkta vara! Fria från tillsatt socker och onödigheter. Alla juicer görs dessutom på plats
+                            i våra butiker för att kunna garantera färska produkter. <a class="main__body-text-links main__body-text-links--bigger"
+                            href="juicer.html">Läs mer om våra juicer här!</a>
+                        </p>
+                        <br>
+                        <p class="main__body-text">
+                            Vår vision är att det ska vara enkelt att välja schyssta produkter som faktiskt innehåller det bästa från växtriket. Våra
+                            juicer gör det den var menad att göra: ge en riktig energiboost!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main__row--padding">
+                    <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+                        <img class="main__body-img" src="images/juices.jpg" alt="flaskor och glas med juice">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__copy">
+            <p class="footer__copy-text">&copy; 2017</p>
+            <div class="footer__copy-logo"><img src="images/logga_stroke.svg" alt="Elixir logotyp"></div>
+        </div>
+        <div class="footer__social">
+            <a class="footer__social-link" aria-label="link to facebook" href="https://facebook.com" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="footer__social-link" aria-label="link to instagram" href="https://instagram.com" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <script src="elixir.js"></script>
+
+</body>
+
+</html>

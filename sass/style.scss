@@ -1,0 +1,19 @@
+
+@import "bootstrap.min.css";
+@import "theme.scss";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400i,600|Vidaloka);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+@import "mobile.scss";
+
+@media screen and (min-width: 768px){
+    @import "tablet";
+}
+
+@media screen and (min-width: 992px){
+    @import "desktop";
+    .container {
+        max-width: 900px;
+    }
+}
